@@ -1,0 +1,2 @@
+$execute as @s at @s positioned ^ ^-0.5 ^0.5 positioned ^ ^ ^$(Range) run execute as @e[type=!item,distance=..$(Range)] run damage @s $(Damage) player_attack by @p
+$execute if score UnnecessaryParticles mtOptions matches 1 as @s at @s positioned ^ ^ ^0.5 positioned ^ ^ ^$(Range) run summon area_effect_cloud ~ ~-0.5 ~ {Duration:1,ReapplicationDelay:1,Radius:$(Range),Particle:{type:block,block_state:"minecraft:redstone_block"}}

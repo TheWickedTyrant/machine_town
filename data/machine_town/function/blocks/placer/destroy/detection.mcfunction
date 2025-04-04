@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ dropper{CustomName:"Auto Placer"} as @s at @s run function machine_town:blocks/placer/destroy/destroy

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:magma_cube_spawn_egg,components:{entity_data:{id:"marker",Tags:[mtAttackerPlacer,mtMarked,mtAttacker]},custom_name:"Auto Attacker"}}}

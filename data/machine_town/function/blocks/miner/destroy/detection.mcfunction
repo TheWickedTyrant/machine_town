@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ dropper{CustomName:"Auto Miner"} as @s at @s run function machine_town:blocks/miner/destroy/destroy

@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:command_block,components:{custom_data:{mt_damage_module:1},custom_name:"Damage Module"}}}

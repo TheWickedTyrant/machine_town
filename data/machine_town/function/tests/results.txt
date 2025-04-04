@@ -1,0 +1,9 @@
+armor stand 49.16 ms/t
+item frame 3.05 ms/t
+interaction 1.62 ms/t
+aoe cloud 2.7 ms/t
+block display 2.27 ms/t
+hopper minecart 50.25ms/t
+item display 1.98 ms/t
+marker 0.67 ms/t
+text display 2.41 ms/t
