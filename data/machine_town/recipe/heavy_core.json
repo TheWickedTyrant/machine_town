@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "OSO",
+      "SNS",
+      "OSO"
+    ],
+    "key": {
+      "O": [
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian"
+      ],
+      "S": [
+        "minecraft:netherite_scrap"
+      ],
+      "N": [
+        "minecraft:nether_star"
+      ]
+    },
+    "result": {
+      "id": "minecraft:heavy_core",
+      "count": 1
+    }
+  }
