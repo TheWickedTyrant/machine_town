@@ -1,2 +1,2 @@
-#execute at @s run summon item ~ ~ ~ {Item:{id:"minecraft:dropper",components:{custom_data:{mtBlock:"miner"}}}}
-execute as @s at @s run function machine_town:spawn_item/all
+execute unless function machine_town:tests/test run return fail
+say failed to place

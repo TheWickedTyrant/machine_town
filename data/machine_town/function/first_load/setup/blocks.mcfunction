@@ -1,4 +1,5 @@
 scoreboard objectives add mtMinerTick dummy "mtMinerTick"
+scoreboard objectives add mtMinerRange dummy "mtMinerRange"
 
 scoreboard objectives add mtAttackerTick dummy "mtAttackerTick"
 scoreboard objectives add mtAttackerDamage dummy "mtAttackerDamage"

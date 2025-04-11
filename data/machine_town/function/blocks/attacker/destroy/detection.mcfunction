@@ -1,1 +1,1 @@
-execute unless block ~ ~ ~ dropper{CustomName:"Auto Attacker"} as @s at @s run function machine_town:blocks/attacker/destroy/destroy
+execute unless block ~ ~ ~ dropper{CustomName:"Auto Attacker"} as @s at @s run return run function machine_town:blocks/attacker/destroy/destroy

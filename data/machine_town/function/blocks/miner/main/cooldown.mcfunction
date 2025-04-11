@@ -9,6 +9,6 @@ execute if data block ~ ~ ~ Items[6].components.minecraft:custom_data.mt_efficie
 execute if data block ~ ~ ~ Items[7].components.minecraft:custom_data.mt_efficiency_module run scoreboard players add @s mtMinerTick 1
 execute if data block ~ ~ ~ Items[8].components.minecraft:custom_data.mt_efficiency_module run scoreboard players add @s mtMinerTick 1
 
-execute if score @s mtMinerTick matches 10.. at @s run function machine_town:blocks/miner/main/mine
+execute if score @s mtMinerTick matches 10.. at @s run function machine_town:blocks/miner/main/mine/get_range
 
 

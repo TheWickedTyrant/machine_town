@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "RRR",
+      "RDR",
+      "RRR"
+    ],
+    "key": {
+      "R": [
+        "minecraft:rabbit_foot"
+      ],
+      "D": [
+        "minecraft:diamond_pickaxe"
+      ]
+    },
+    "result": {
+      "id": "minecraft:repeating_command_block",
+      "components": {
+        "minecraft:custom_data": {
+            "mt_efficiency_module": 1
+        },
+        "minecraft:custom_name": "Efficiency Module"
+      }
+    }
+  }

@@ -1,0 +1,1 @@
+execute as @s at @s unless block ~ ~ ~ lodestone run execute as @s at @s run function machine_town:blocks/chunk_loader/destroy/destroy

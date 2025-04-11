@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "BBB",
+      "BSB",
+      "BBB"
+    ],
+    "key": {
+      "B": [
+        "minecraft:blaze_powder"
+      ],
+      "S": [
+        "minecraft:diamond_sword"
+      ]
+    },
+    "result": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:custom_name": "Damage Module",
+        "minecraft:custom_data": {
+          "mt_damage_module": 1
+        }
+      }
+    }
+  }

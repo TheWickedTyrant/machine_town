@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "PGB",
+      "SCG",
+      "AGL"
+    ],
+    "key": {
+      "P": [
+        "minecraft:diamond_pickaxe"
+      ],
+      "G": [
+        "minecraft:copper_grate",
+        "minecraft:waxed_copper_grate"
+      ],
+      "B": [
+        "minecraft:blast_furnace"
+      ],
+      "S": [
+        "minecraft:stick"
+      ],
+      "C": [
+        "minecraft:heavy_core"
+      ],
+      "A": [
+        "minecraft:armor_stand"
+      ],
+      "L": [
+        "minecraft:lodestone"
+      ]
+    },
+    "result": {
+      "id": "minecraft:warden_spawn_egg",
+      "components": {
+        "minecraft:custom_name": "Auto Miner",
+        "minecraft:entity_data": {
+          "id": "minecraft:marker",
+          "Tags": [
+            "mtMinerPlacer",
+            "mtMarked",
+            "mtMiner"
+          ]
+        }
+      }
+    }
+  }

@@ -1,6 +1,6 @@
 tag @s remove mtAttackerPlacer
 
-execute positioned as @s as @s align xyz run tp ~0.5 ~0.5 ~0.5
+execute positioned as @s at @s align xyz run tp ~0.5 ~0.5 ~0.5
 
 rotate @s facing entity @p eyes
 execute store result score PlacerRotationH mtMath run data get entity @s Rotation[0]

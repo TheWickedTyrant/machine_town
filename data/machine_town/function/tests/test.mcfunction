@@ -1,0 +1,1 @@
+execute positioned as @s anchored eyes run setblock ^ ^ ^2 dropper[facing=north] keep

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "TCC",
+      "DCD",
+      "CCT"
+    ],
+    "key": {
+      "T": [
+        "minecraft:tripwire_hook"
+      ],
+      "C": [
+        "minecraft:chain"
+      ],
+      "D": [
+        "minecraft:diamond"
+      ]
+    },
+    "result": {
+      "id": "minecraft:chain_command_block",
+      "components": {
+        "minecraft:custom_data": {
+          "mt_range_module": 1
+        },
+        "minecraft:custom_name": "Range Module"
+      }
+    }
+  }

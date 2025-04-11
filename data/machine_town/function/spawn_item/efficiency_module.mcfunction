@@ -1,1 +1,1 @@
-summon item ~ ~ ~ {Item:{id:repeating_command_block,components:{custom_data:{mt_efficiency_module:1},custom_name:"Efficiency Module"}}}
+summon item ~ ~ ~ {Item:{id:repeating_command_block,components:{custom_data:{mt_efficiency_module:1b},custom_name:"Efficiency Module"}}}

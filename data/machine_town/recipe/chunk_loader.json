@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "ESE",
+      "OLO",
+      "OOO"
+    ],
+    "key": {
+      "E": [
+        "minecraft:ender_eye"
+      ],
+      "S": [
+        "minecraft:nether_star"
+      ],
+      "L": [
+        "minecraft:lodestone"
+      ],
+      "O": [
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian"
+      ]
+    },
+    "result": {
+      "id": "minecraft:ravager_spawn_egg",
+      "components": {
+        "minecraft:custom_name": "Chunk Loader",
+        "minecraft:entity_data": {
+          "id": "minecraft:marker",
+          "Tags": [
+            "mtChunkLoaderPlacer",
+            "mtMarked",
+            "mtChunkLoader"
+          ]
+        }
+      }
+    }
+  }
